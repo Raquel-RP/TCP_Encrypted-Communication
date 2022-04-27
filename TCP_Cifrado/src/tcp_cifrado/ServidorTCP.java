@@ -26,11 +26,12 @@ import javax.crypto.spec.SecretKeySpec;
 
 /**
  *
- * Servidor TCP que cifra mensajes recibidos del ciente cambiando las vocales
- * por números. La característica del servidor es que recibe el mensaje cifrado
- * y lo descifra con la clave usada por el cliente. Esto está implementado con
- * el algoritmo Diffie-Hellman, que está programado en la clase
- * DiffieHellman.java
+ * TCP server that encrypts messages received from the client 
+ * by changing the vowels for numbers. The characteristic of 
+ * the server is that it receives the encrypted message and 
+ * decrypts it with the key used by the client. This is 
+ * implemented with the Diffie-Hellman algorithm, which is 
+ * programmed in the DiffieHellman.java class.
  *
  * @version 1.6 18/04/2022
  * @author Raquel Romero Pedraza
@@ -39,7 +40,7 @@ import javax.crypto.spec.SecretKeySpec;
 public class ServidorTCP {
 
     /**
-     * Método principal de la clase:
+     * Principal method
      *
      * @param args
      *
